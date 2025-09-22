@@ -6,3 +6,4 @@
 python scanner.py target.stie
 ```
 <img width="1121" height="617" alt="Image" src="https://github.com/user-attachments/assets/eae310d5-4077-411a-a742-65de71312ece" />
+<img width="754" height="1083" alt="Image" src="https://github.com/user-attachments/assets/ac65f70d-48c9-42d1-84a5-9a0664a6b30c" />
