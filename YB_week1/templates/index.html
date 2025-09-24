@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>방명록</title>
+</head>
+<body>
+    <h1>방명록</h1>
+    
+    <h2>검색</h2>
+    <form action="/search" method="GET">
+        <input type="text" name="q">
+        <input type="submit" value="검색">
+    </form>
+    
+    <h2>방명록 작성</h2>
+    <form action="/write" method="POST">
+        이름: <input type="text" name="name"><br>
+        메시지: <textarea name="message"></textarea><br>
+        <input type="submit" value="작성">
+    </form>
+    
+    <!--HTML에서: entries를 받아서 반복문으로 각 방명록을 출력-->
+    <h2>방명록 목록</h2>
+    <!--Jinja2 템플릿 문법-->
+    {% if entries %}
+        {% for entry in entries %}
+        <div>
+            <strong>{{ entry.name|safe }}</strong><br>
+            {{ entry.message|safe }}<br><br>
+        </div>
+        {% endfor %}
+    {% else %}
+        방명록이 없습니다.
+    {% endif %}
+</body>
+</html>
