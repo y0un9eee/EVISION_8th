@@ -11,6 +11,7 @@ Flask를 사용하여 Reflected XSS와 Stored XSS 취약점이 있는 방명록 
 ## XSS 취약점
 
 ### Reflected XSS
+<img width="1733" height="331" alt="Image" src="https://github.com/user-attachments/assets/9a3281ef-97b6-421d-9ac8-9a6d0d4836f3" />
 - 검색 페이지에서 사용자 입력을 이스케이프 처리 없이 그대로 출력
 - 악성 스크립트가 즉시 실행됨
 
