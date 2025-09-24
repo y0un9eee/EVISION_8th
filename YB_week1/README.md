@@ -7,6 +7,7 @@ Flask를 사용하여 Reflected XSS와 Stored XSS 취약점이 있는 방명록 
 - **메인 페이지 ('/')**: 검색 폼과 방명록 작성 폼
 - **검색 기능 ('/search')**: Reflected XSS 취약점이 있는 검색 결과 출력
 - **방명록 기능 ('/write')**: Stored XSS 취약점이 있는 방명록 저장 및 출력
+  <img width="988" height="836" alt="Image" src="https://github.com/user-attachments/assets/ea76741a-fdd2-4213-9d5d-af5709c3f300" />
 
 ## XSS 취약점
 
