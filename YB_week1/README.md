@@ -16,6 +16,7 @@ Flask를 사용하여 Reflected XSS와 Stored XSS 취약점이 있는 방명록 
 - 악성 스크립트가 즉시 실행됨
 
 ### Stored XSS
+<img width="1668" height="324" alt="Image" src="https://github.com/user-attachments/assets/65f57f3b-b583-421a-be99-8f114e96824c" />
 - 방명록에 입력된 악성 스크립트가 서버에 저장됨
 - 다른 사용자가 방명록을 볼 때마다 스크립트가 실행됨
 
@@ -30,7 +31,7 @@ python app.py
 ## 파일 구조
 
 ```
-week1/
+YB_week1/
 ├── app.py              # Flask 애플리케이션
 ├── templates/
 │   └── index.html      # 메인 페이지 템플릿
